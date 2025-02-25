@@ -6,6 +6,10 @@ const app = express();
 
 const port = 4000;
 
+const data = fetch() 
+
+
+
 app.get('/' , (req , res)=>{
   res.send("Hello World");
 })
